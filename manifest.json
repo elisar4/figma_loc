@@ -1,0 +1,7 @@
+{
+    "name": "JJOLocalize",
+    "id": "952551635226742496",
+    "api": "1.0.0",
+    "main": "dist/code.js",
+    "ui": "dist/ui.html"
+}
