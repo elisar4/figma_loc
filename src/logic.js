@@ -11,7 +11,7 @@ export function convertRgbToHex(color) {
         .join("");
     return `#${hex}`;
 }
-//
+
 export function calculateLuminance(color) {
     const normalizedColor = color.map((channel) => channel / 255);
     const gammaCorrectedRGB = normalizedColor.map((channel) =>
