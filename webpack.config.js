@@ -35,6 +35,10 @@ module.exports = (env, argv) => ({
         path: path.resolve(__dirname, 'dist'), // Compile into a folder called "dist"
     },
 
+    optimization: {
+        minimize: false
+    },
+
     // Tells Webpack to generate "ui.html" and to inline "ui.ts" into it
     plugins: [
         new webpack.DefinePlugin({
