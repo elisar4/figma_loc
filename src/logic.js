@@ -1,3 +1,7 @@
+export var foregroundColor
+export var foregroundAlpha
+export var backgoundColor
+
 export function convertRgbToHex(color) {
     const hex = color
         .map((col) => {

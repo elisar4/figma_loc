@@ -1,4 +1,4 @@
-import { convertRgbToHex, getContrastScores, getRGB, calculateContrast } from './logic.js';
+import { convertRgbToHex, getContrastScores, getRGB, calculateContrast, foregroundColor, foregroundAlpha, backgoundColor } from './logic.js';
 
 figma.showUI(__html__)
 
