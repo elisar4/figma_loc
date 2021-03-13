@@ -18,6 +18,8 @@ export function calculateLuminance(color) {
         channel <= 0.03928 ?
         channel / 12.92 :
         Math.pow((channel + 0.055) / 1.055, 2.4)
+
+
     );
     const luminance =
         gammaCorrectedRGB[0] * 0.2126 +
