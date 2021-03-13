@@ -15,6 +15,8 @@ module.exports = (env, argv) => ({
         code: './src/code.js', // The entry point for your plugin code
     },
 
+
+
     module: {
         rules: [
             // Converts TypeScript code to JavaScript
