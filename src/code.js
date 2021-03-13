@@ -1,6 +1,6 @@
 import { convertRgbToHex, getContrastScores, getRGB, calculateContrast, foregroundColor, foregroundAlpha, backgoundColor } from './logic.js';
 
-figma.showUI(__html__)
+figma.showUI(__html__);
 
 function sendContrastInfo(contrast, foreground, backgound) {
     figma.ui.postMessage({
